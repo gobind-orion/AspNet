@@ -1,0 +1,15 @@
+{
+  "PlanType": "Yearly",
+  "NoOfUsers": "2",
+  "TotalPrice": 56,
+  "contactInfo": {
+    "FullName": "Manish",
+    "Email": "ABC@gmail.com",
+    "Role": "dev",
+    "company": {
+      "Name": "Orion",
+      "Size": "34",
+      "Location": "sdf"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mGRDIlJWxt3TcImBPd/eW5OaQhSEI61iMC+iyx2MJFE=",
+  "Source": "RansomwareTest",
+  "BasePath": "_content/RansomwareTest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

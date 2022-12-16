@@ -1,0 +1,15 @@
+{
+  "PlanType": "Monthly",
+  "NoOfUsers": "2",
+  "TotalPrice": 56,
+  "contactInfo": {
+    "FullName": "Manish",
+    "Email": "ABC@gmail.com",
+    "Role": "Dev",
+    "company": {
+      "Name": "SDF",
+      "Size": "23",
+      "Location": "mohali"
+    }
+  }
+}
