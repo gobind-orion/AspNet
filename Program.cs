@@ -28,6 +28,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseRouting();
+
+// Enable middleware to serve generated Swagger as a JSON endpoint.
 app.UseCors(MyAllowSpecificOrigins);
 
 app.UseAuthorization();
