@@ -1,15 +1,15 @@
 {
   "PlanType": "Yearly",
-  "NoOfUsers": "2",
-  "TotalPrice": 56,
+  "NoOfUsers": "1",
+  "TotalPrice": 268.8,
   "contactInfo": {
-    "FullName": "Manish",
-    "Email": "ABC@gmail.com",
-    "Role": "dev",
+    "FullName": "user1",
+    "Email": "user1@gmail.com",
+    "Role": "DEv",
     "company": {
-      "Name": "Orion",
-      "Size": "34",
-      "Location": "sdf"
+      "Name": "Qss",
+      "Size": "213",
+      "Location": "SAD"
     }
   }
 }

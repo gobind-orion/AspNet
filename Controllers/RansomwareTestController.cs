@@ -1,21 +1,33 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using RansomwareTest.Model;
-using System.Xml;
-using Microsoft.AspNetCore.Hosting;
 
 namespace RansomwareTest.Controllers
 {
+    /// <summary>
+    /// RansomwareTest Controller 
+    /// api/[Controller] on RansomwareTest becomes api/RansomwareTest
+    /// endpoint: "api/RansomwareTest" from [Controller] and name of controller , which is "RansomwareTest"
+    /// </summary>
+    [Route("api/[Controller]")]
     public class RansomwareTestController : Controller
     {
+        /// <summary>
+        /// private field to store reference of IHostingEnvironment
+        /// </summary>
         private readonly Microsoft.AspNetCore.Hosting.IHostingEnvironment _hostingEnvironment;
 
+        /// <summary>
+        /// Parameterized Constructor
+        /// </summary>
+        /// <param name="hostingEnvironment"></param>
         public RansomwareTestController(Microsoft.AspNetCore.Hosting.IHostingEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
         }
+
         /// <summary>
-        /// Save record for ransomware details.
+        /// Save record for ransomware details
         /// </summary> //Gobind 
         /// <param name="planDetails"></param>
         /// <returns>Message for saved record</returns>
