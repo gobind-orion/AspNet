@@ -9,14 +9,14 @@ all details are saved in json file and return a saved message.
 #### Save Ransomware Details
 
 ```http
-  Post /api/SaveRansomwareDetails
+  Post /api/RansomwareTest/SaveRansomwareDetails
 ```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `PlanType` | `string` | Monthly / Yearly        |
 | `Noofusers`  | `string` | Select no of user from dropdown|
-| `TotalPrice`  | `int` | Total Price is calculate after selected the user with amount ($28) monthly or yearly bases
+| `TotalPrice`  | `decimal` | Total Price is calculate after selected the user with amount ($28) monthly or yearly bases
 | `FullName` | `string`| It is the property of contactinfo model |
 | `email` | `string`| Email is enter with email formate like abc@example.com|
 | `role` | `string`| Role of the user|
